@@ -1,0 +1,13 @@
+__pycache__/
+log/
+MVT/log/
+MVT/wandb/
+*.sh
+build/
+dist/
+slurm-*.out
+log_*/
+sr3d_*.csv
+nr3d_*.csv
+MVT/scripts_test
+
