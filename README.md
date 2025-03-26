@@ -1,15 +1,5 @@
 # IRef-VLA Benchmark
 
-<div style="text-align: center; margin-bottom: 1em">
-    <a href="" target="_blank">
- 
-    <img src="https://img.shields.io/badge/Paper-arXiv-deepgreen" alt="Paper arXiv"></a>
-    <a href="https://arxiv.org/abs/2503.17406" target="_blank">
-
-    <img src="https://img.shields.io/badge/Video-YouTube-9966ff" alt="Video"></a>
-    <a href="https://youtu.be/Qs_EUFAWR-s" target="_blank">
-</div>
-
 The IRef-VLA dataset is a 3D object referential dataset designed for vision-language grounding that can be used for the higher-level task of vision-language navigation (VLN), as well as for navigation methods that provide feedback. This dataset consists of over 11.5K scanned 3D rooms from existing datasets, 7.6M heuristically generated spatial relations, and 4.7M referential statements. It also contains semantic object and room annotations, scene graphs, navigable free space annotations, and is augmented with statements where the language has imperfections or ambiguities. A sample scene from each data source can be found under [sample_data](sample_data/).
 
 This repository is set up to run training and evaluation on the IRef-VLA dataset for various baselines. It includes the dataloader for the IRef-VLA benchmark, the MVT [1] and 3D-VisTA [2] baselines for 3D grounding, along with a custom scene graph search baseline. The installation guide and the scripts to recreate the evaluations from our paper are included. More details can be found under the [Installation](#installation) section. The dataloading, training, and evaluation infrastructure are designed to be flexible and extensible, allowing for easy integration of new methods or models to compare against the established baselines.
@@ -18,7 +8,7 @@ This repository is set up to run training and evaluation on the IRef-VLA dataset
 
 
 ## Updates
-- [2025-01] Corresponding [paper](https://arxiv.org/abs/2503.17406) accepted to ICRA 2025!
+- [2025-01] Corresponding paper accepted to ICRA 2025! Link coming soon.
 - [2024-10] We release the first version of our dataset. Refer to the [Dataset Download](#dataset-download) section for download instructions.
 
 
