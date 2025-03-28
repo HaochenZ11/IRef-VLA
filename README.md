@@ -1,4 +1,6 @@
-# IRef-VLA Benchmark
+<h1 align="center">
+<b>IRef-VLA Benchmark</b>
+</h1>
 
 <div align="center" margin-bottom="2em">
 <a href="https://HaochenZ11.github.io">Haochen Zhang<sup>✶</sup></a>,
