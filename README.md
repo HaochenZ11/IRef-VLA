@@ -1,6 +1,6 @@
 # IRef-VLA Benchmark
 
-<div style="text-align: center; margin-bottom: 1em">
+<div align="center" margin-bottom="2em">
 <a href="https://HaochenZ11.github.io">Haochen Zhang<sup>✶</sup></a>,
 <a href="https://nzantout.github.io">Nader Zantout<sup>✶</sup></a>,
 <a href="https://sites.google.com/view/pujith-kachana/">Pujith Kachana</a>,
@@ -9,13 +9,15 @@
 <br>
 <sup>* </sup>Equal contribution<br>
 </div>
+&nbsp;
 
-<div style="text-align: center; margin-bottom: 1em">
+<div align="center">
     <a href="https://arxiv.org/abs/2503.17406" target="_blank">
     <img src="https://img.shields.io/badge/Paper-arXiv-deepgreen" alt="Paper arXiv"></a>
     <a href="https://youtu.be/Qs_EUFAWR-s" target="_blank">
     <img src="https://img.shields.io/badge/Video-YouTube-9966ff" alt="Video"></a>
 </div>
+&nbsp;
 
 The IRef-VLA dataset is a 3D object referential dataset designed for vision-language grounding that can be used for the higher-level task of vision-language navigation (VLN), as well as for navigation methods that provide feedback. This dataset consists of over 11.5K scanned 3D rooms from existing datasets, 7.6M heuristically generated spatial relations, and 4.7M referential statements. It also contains semantic object and room annotations, scene graphs, navigable free space annotations, and is augmented with statements where the language has imperfections or ambiguities. A sample scene from each data source can be found under [sample_data](sample_data/). A sample visualization of a region from the dataset is visualized with a) a scene graph and b) a corresponding referential statement in the figure below. 
 
