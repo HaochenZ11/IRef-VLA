@@ -1,5 +1,5 @@
 <h1 align="center">
-<b>IRef-VLA Benchmark</b>
+<b>IRef-VLA Benchmark (ICRA 2025)</b>
 </h1>
 
 <div align="center" margin-bottom="2em">
@@ -32,7 +32,8 @@ This repository is set up to run training and evaluation on the IRef-VLA dataset
 </p>
 
 ## Updates
-- [2025-01] Corresponding [paper](https://arxiv.org/abs/2503.17406) accepted to ICRA 2025!.
+- [2025-06] Check out our follow-up work [SORT3D](https://github.com/nzantout/Sort3D), accepted to IROS 2025!
+- [2025-01] Corresponding [paper](https://arxiv.org/abs/2503.17406) accepted to [ICRA 2025](https://2025.ieee-icra.org/)!
 - [2024-10] We release the first version of our dataset. Refer to the [Dataset Download](#dataset-download) section for download instructions.
 
 
@@ -174,12 +175,13 @@ bash vista/scripts/eval_vista.bash
 To run training/evaluation on the ReferIt3D statements instead, add the argument `--use_sr3d` when running the python script.
 
 ### Graph-Search 
-To run evaluation with the scene graph baseline, run the [graph-search/sg_baseline.py](graph-search/sg_baseline.py) script with the following arguments:
+To run evaluation with the scene graph baseline, first run the [data/prepare_data.py](data/prepare_data.py) script to generate the `metadata.json` file for the dataset.
+Then, run the [graph-search/sg_baseline.py](graph-search/sg_baseline.py) script with the following arguments:
 
 - `data_path`: path to dataset folder
 - `llm_output_file`: output json from LLM parsing
 
-Note that the LLM parsing component is run independently ahead of time to save the output results from the API and minimize API calls.
+Note that the LLM parsing component is run independently ahead of time to save the output results from the API and minimize API calls. 
 
 ## References
 [1] S. Huang, Y. Chen, J. Jia, and L. Wang, “Multi-View Transformer for 3D Visual Grounding,” 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Jun. 2022, doi: https://doi.org/10.1109/cvpr52688.2022.01508.
