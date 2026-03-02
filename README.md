@@ -39,10 +39,10 @@ This repository is set up to run training and evaluation on the IRef-VLA dataset
 
 ## Dataset Download
 
-Install minio and tqdm:
+Install boto3 and tqdm:
 
 ```bash
-pip install minio tqdm
+pip install boto3 tqdm
 ```
 
 Run the [data/download_dataset.py](data/download_dataset.py) script. The script can be run with the following arguments:
